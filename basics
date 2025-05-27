@@ -1,1 +1,47 @@
 01_hello_world.py
+#!/usr/bin/env python3
+"""
+My First Python Script
+======================
+Welcome to my Python Workshop!
+This is where my coding journey begins.
+"""
+
+# Basic print statements
+print("🐍 Welcome to Python Workshop!")
+print("=" * 40)
+
+# Variables and basic data types
+name = "Python Learner"
+age = 2024
+version = 3.12
+is_awesome = True
+
+# Displaying information
+print(f"Hello, I'm {akshada}!")
+print(f"Python was created in {age - 15}")
+print(f"Currently learning Python )
+print(f"Is Python awesome? {is_awesome}")
+
+# Basic operations
+print("\n📊 Quick Math:")
+print(f"10 + 5 = {10 + 5}")
+print(f"10 * 3 = {10 * 3}")
+print(f"15 / 3 = {15 / 3}")
+print(f"2 ** 8 = {2 ** 8}")
+
+# Fun with strings
+message = "Learning Python is fun!"
+print(f"\n💬 Message: {message}")
+print(f"📏 Length: {len(message)} characters")
+print(f"🔤 Uppercase: {message.upper()}")
+print(f"🔡 Lowercase: {message.lower()}")
+
+# Lists basics
+favorite_languages = ["Python", "JavaScript", "Go", "Rust"]
+print(f"\n💻 My favorite languages: {', '.join(favorite_languages)}")
+print(f"🎯 Currently focusing on: {favorite_languages[0]}")
+
+print("\n" + "=" * 40)
+print("🎉 First script completed successfully!")
+print("Ready for the next challenge!")
